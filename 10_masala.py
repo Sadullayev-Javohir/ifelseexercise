@@ -4,3 +4,4 @@ yig'indisini o'zlashtirsin. Agar teng bo'lsa, 0 ni o'zlashtirsin. A va B ning qi
 A = int(input("A sonni kiriting: "))
 B = int(input("B sonni kiriting: "))
 
+#FAIL
