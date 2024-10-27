@@ -4,4 +4,12 @@ yig'indisini o'zlashtirsin. Agar teng bo'lsa, 0 ni o'zlashtirsin. A va B ning qi
 A = int(input("A sonni kiriting: "))
 B = int(input("B sonni kiriting: "))
 
-#FAIL
+if (A != B):
+    A = A + B
+    B = A
+elif (A == B):
+    A = 0
+    B = A
+
+print(f"A = {A}")
+print(f"B = {B}")
