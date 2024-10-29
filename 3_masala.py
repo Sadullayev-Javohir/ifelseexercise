@@ -5,9 +5,9 @@ num = int(input("Son kiriting: "))
 
 if num > 0:
     num += 1
-if num < 0:
+elif num < 0:
     num -= 2
-elif num == 0:
+else:
     num = 10
 
 print(num)

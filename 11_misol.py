@@ -10,5 +10,6 @@ if (A != B):
         B = A
     else:
         A = B
-        
+else:
+    pass    
 print(f"A = {A}, B = {B}")
