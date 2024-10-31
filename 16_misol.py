@@ -6,9 +6,9 @@ B = int(input("B ning qiymatini kiriting: "))
 C = int(input("C ning qiymatini kiriting: "))
 
 if (A < B < C):
-    A = A + 2
-    B = B + 2
-    C = C + 2
+    A = A * 2
+    B = B * 2
+    C = C * 2
 else:
     A = -A
     B = -B
